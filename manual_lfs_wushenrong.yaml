@@ -1,0 +1,8 @@
+name: Samuel Wu
+description: Default template for Linux From Scratch
+
+game: manual_lfs_wushenrong
+
+manual_lfs_wushenrong:
+  accessibility: full
+  progression_balancing: 50

@@ -1,0 +1,720 @@
+{
+  "data": [
+    {
+      "category": [
+        "Initial Tools"
+      ],
+      "name": "Binutils Pass 1",
+      "progression": true
+    },
+    {
+      "category": [
+        "Initial Tools"
+      ],
+      "name": "GCC Pass 1",
+      "progression": true
+    },
+    {
+      "category": [
+        "Initial Tools"
+      ],
+      "name": "Linux API Headers",
+      "progression": true
+    },
+    {
+      "category": [
+        "Initial Tools"
+      ],
+      "name": "Cross Glibc",
+      "progression": true
+    },
+    {
+      "category": [
+        "Initial Tools"
+      ],
+      "name": "Libstdc++",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross M4",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Ncurses",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Bash",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Coreutils",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Diffutils",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross File",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Findutils",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Gawk",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Grep",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Gzip",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Make",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Patch",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Sed",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Tar",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Cross Xz",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "Binutils Pass 2",
+      "progression": true
+    },
+    {
+      "category": [
+        "Cross Tools"
+      ],
+      "name": "GCC Pass 2",
+      "progression": true
+    },
+    {
+      "category": [
+        "Chroot Tools"
+      ],
+      "name": "Cross Gettext",
+      "progression": true
+    },
+    {
+      "category": [
+        "Chroot Tools"
+      ],
+      "name": "Cross Bison",
+      "progression": true
+    },
+    {
+      "category": [
+        "Chroot Tools"
+      ],
+      "name": "Cross Perl",
+      "progression": true
+    },
+    {
+      "category": [
+        "Chroot Tools"
+      ],
+      "name": "Cross Python",
+      "progression": true
+    },
+    {
+      "category": [
+        "Chroot Tools"
+      ],
+      "name": "Cross Texinfo",
+      "progression": true
+    },
+    {
+      "category": [
+        "Chroot Tools"
+      ],
+      "name": "Cross Util-Linux",
+      "progression": true
+    },
+    {
+      "name": "Man-pages",
+      "progression": true
+    },
+    {
+      "name": "Iana-Etc",
+      "progression": true
+    },
+    {
+      "category": [
+        "Glibc"
+      ],
+      "name": "Glibc Build",
+      "progression": true
+    },
+    {
+      "category": [
+        "Glibc"
+      ],
+      "name": "Glibc Test",
+      "progression": true
+    },
+    {
+      "category": [
+        "Compression",
+        "Binutils Prerequisites"
+      ],
+      "name": "Zlib",
+      "progression": true
+    },
+    {
+      "category": [
+        "Compression"
+      ],
+      "name": "Bzip2",
+      "progression": true
+    },
+    {
+      "category": [
+        "Compression"
+      ],
+      "name": "Xz",
+      "progression": true
+    },
+    {
+      "category": [
+        "Compression"
+      ],
+      "name": "Lz4",
+      "progression": true
+    },
+    {
+      "category": [
+        "Compression",
+        "Binutils Prerequisites",
+        "GCC Prerequisites"
+      ],
+      "name": "Zstd",
+      "progression": true
+    },
+    {
+      "category": [
+        "Binutils Prerequisites"
+      ],
+      "name": "File",
+      "progression": true
+    },
+    {
+      "name": "Readline",
+      "progression": true
+    },
+    {
+      "name": "Pcre2",
+      "progression": true
+    },
+    {
+      "category": [
+        "GCC Prerequisites"
+      ],
+      "name": "M4",
+      "progression": true
+    },
+    {
+      "name": "Bc",
+      "progression": true
+    },
+    {
+      "category": [
+        "Binutils Prerequisites"
+      ],
+      "name": "Flex",
+      "progression": true
+    },
+    {
+      "name": "Tcl",
+      "progression": true
+    },
+    {
+      "name": "Expect",
+      "progression": true
+    },
+    {
+      "name": "DejaGNU",
+      "progression": true
+    },
+    {
+      "category": [
+        "Binutils Prerequisites"
+      ],
+      "name": "Pkgconf",
+      "progression": true
+    },
+    {
+      "category": [
+        "Binutils",
+        "GCC Prerequisites"
+      ],
+      "name": "Binutils Build",
+      "progression": true
+    },
+    {
+      "category": [
+        "Binutils",
+        "GCC Prerequisites",
+        "Important Tests"
+      ],
+      "name": "Binutils Test",
+      "progression": true
+    },
+    {
+      "category": [
+        "GMP",
+        "GCC Prerequisites"
+      ],
+      "name": "GMP Build",
+      "progression": true
+    },
+    {
+      "category": [
+        "GMP",
+        "GCC Prerequisites",
+        "Important Tests"
+      ],
+      "name": "GMP Test",
+      "progression": true
+    },
+    {
+      "category": [
+        "MPFR",
+        "GCC Prerequisites"
+      ],
+      "name": "MPFR Build",
+      "progression": true
+    },
+    {
+      "category": [
+        "MPFR",
+        "GCC Prerequisites",
+        "Important Tests"
+      ],
+      "name": "MPFR Test",
+      "progression": true
+    },
+    {
+      "category": [
+        "GCC Prerequisites"
+      ],
+      "name": "MPC",
+      "progression": true
+    },
+    {
+      "category": [
+        "Shadow Prerequisites"
+      ],
+      "name": "Attr",
+      "progression": true
+    },
+    {
+      "category": [
+        "Shadow Prerequisites"
+      ],
+      "name": "Acl",
+      "progression": true
+    },
+    {
+      "category": [
+        "Shadow Prerequisites"
+      ],
+      "name": "Libcap",
+      "progression": true
+    },
+    {
+      "category": [
+        "Shadow Prerequisites"
+      ],
+      "name": "Libxcrypt",
+      "progression": true
+    },
+    {
+      "category": [
+        "GCC Prerequisites"
+      ],
+      "name": "Shadow",
+      "progression": true
+    },
+    {
+      "category": [
+        "GCC"
+      ],
+      "name": "GCC Build",
+      "progression": true
+    },
+    {
+      "category": [
+        "GCC",
+        "Important Tests"
+      ],
+      "name": "GCC Test",
+      "progression": true
+    },
+    {
+      "category": [
+        "Python Prerequisites",
+        "Linux Prerequisites"
+      ],
+      "name": "Ncurses",
+      "progression": true
+    },
+    {
+      "name": "Sed",
+      "progression": true
+    },
+    {
+      "name": "Psmisc",
+      "progression": true
+    },
+    {
+      "category": [
+        "Python Prerequisites",
+        "Tar Prerequisites"
+      ],
+      "name": "Gettext",
+      "progression": true
+    },
+    {
+      "name": "Bison",
+      "progression": true
+    },
+    {
+      "name": "Grep",
+      "progression": true
+    },
+    {
+      "name": "Bash",
+      "progression": true
+    },
+    {
+      "name": "Libtool",
+      "progression": true
+    },
+    {
+      "category": [
+        "Python Prerequisites"
+      ],
+      "name": "GDBM",
+      "progression": true
+    },
+    {
+      "category": [
+        "Systemd Prerequisites"
+      ],
+      "name": "Gperf",
+      "progression": true
+    },
+    {
+      "category": [
+        "Python Prerequisites"
+      ],
+      "name": "Expat",
+      "progression": true
+    },
+    {
+      "category": [
+        "Tar Prerequisites"
+      ],
+      "name": "Inetutils",
+      "progression": true
+    },
+    {
+      "name": "Less",
+      "progression": true
+    },
+    {
+      "category": [
+        "Coreutils Prerequisites",
+        "Diffutils Prerequisites",
+        "Groff Prerequisites",
+        "Linux Prerequisites"
+      ],
+      "name": "Perl",
+      "progression": true
+    },
+    {
+      "name": "XML__Parser",
+      "progression": true
+    },
+    {
+      "name": "Intltool",
+      "progression": true
+    },
+    {
+      "category": [
+        "Coreutils Prerequisites",
+        "Tar Prerequisites"
+      ],
+      "name": "Autoconf",
+      "progression": true
+    },
+    {
+      "category": [
+        "Coreutils Prerequisites"
+      ],
+      "name": "Automake",
+      "progression": true
+    },
+    {
+      "category": [
+        "Python Prerequisites",
+        "Coreutils Prerequisites",
+        "Systemd Prerequisites",
+        "Linux Prerequisites"
+      ],
+      "name": "OpenSSL",
+      "progression": true
+    },
+    {
+      "category": [
+        "Linux Prerequisites"
+      ],
+      "name": "Libelf",
+      "progression": true
+    },
+    {
+      "category": [
+        "Python Prerequisites"
+      ],
+      "name": "Libffi",
+      "progression": true
+    },
+    {
+      "category": [
+        "Python Prerequisites"
+      ],
+      "name": "Sqlite",
+      "progression": true
+    },
+    {
+      "category": [
+        "Python Prerequisites"
+      ],
+      "name": "Python",
+      "progression": true
+    },
+    {
+      "name": "Flit-Core",
+      "progression": true
+    },
+    {
+      "name": "Packaging",
+      "progression": true
+    },
+    {
+      "name": "Wheel",
+      "progression": true
+    },
+    {
+      "name": "Setuptools",
+      "progression": true
+    },
+    {
+      "name": "Ninja",
+      "progression": true
+    },
+    {
+      "category": [
+        "Systemd Prerequisites"
+      ],
+      "name": "Meson",
+      "progression": true
+    },
+    {
+      "category": [
+        "Linux Prerequisites"
+      ],
+      "name": "Kmod",
+      "progression": true
+    },
+    {
+      "name": "Coreutils",
+      "progression": true
+    },
+    {
+      "category": [
+        "Tar Prerequisites"
+      ],
+      "name": "Diffutils",
+      "progression": true
+    },
+    {
+      "category": [
+        "Tar Prerequisites"
+      ],
+      "name": "Gawk",
+      "progression": true
+    },
+    {
+      "category": [
+        "Tar Prerequisites"
+      ],
+      "name": "Findutils",
+      "progression": true
+    },
+    {
+      "category": [
+        "Groff Prerequisites"
+      ],
+      "name": "Groff",
+      "progression": true
+    },
+    {
+      "name": "GRUB",
+      "progression": true
+    },
+    {
+      "category": [
+        "Tar Prerequisites"
+      ],
+      "name": "Gzip",
+      "progression": true
+    },
+    {
+      "name": "IPRoute2",
+      "progression": true
+    },
+    {
+      "name": "Kbd",
+      "progression": true
+    },
+    {
+      "name": "Libpipeline",
+      "progression": true
+    },
+    {
+      "name": "Make",
+      "progression": true
+    },
+    {
+      "name": "Patch",
+      "progression": true
+    },
+    {
+      "category": [
+        "Tar Prerequisites"
+      ],
+      "name": "Tar",
+      "progression": true
+    },
+    {
+      "name": "Texinfo",
+      "progression": true
+    },
+    {
+      "name": "Vim",
+      "progression": true
+    },
+    {
+      "name": "MarkupSafe",
+      "progression": true
+    },
+    {
+      "category": [
+        "Systemd Prerequisites"
+      ],
+      "name": "Jinja2",
+      "progression": true
+    },
+    {
+      "category": [
+        "Systemd Prerequisites"
+      ],
+      "name": "Systemd",
+      "progression": true
+    },
+    {
+      "name": "D-Bus",
+      "progression": true
+    },
+    {
+      "name": "Man-DB",
+      "progression": true
+    },
+    {
+      "name": "Procps-ng",
+      "progression": true
+    },
+    {
+      "name": "Util-Linux",
+      "progression": true
+    },
+    {
+      "name": "E2fsprogs",
+      "progression": true
+    },
+    {
+      "category": [
+        "Linux Prerequisites"
+      ],
+      "name": "Linux",
+      "progression": true
+    }
+  ]
+}

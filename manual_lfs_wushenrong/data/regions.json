@@ -1,0 +1,40 @@
+{
+  "Building Additional Temporary Tools": {
+    "connects_to": [
+      "Installing Basic System Software: Toolchain"
+    ],
+    "requires": "|@Cross Tools:ALL|"
+  },
+  "Compiling a Cross-Toolchain": {
+    "connects_to": [
+      "Cross Compiling Temporary Tools"
+    ],
+    "starting": true
+  },
+  "Configuring LFS": {
+    "connects_to": [
+      "The End"
+    ]
+  },
+  "Cross Compiling Temporary Tools": {
+    "connects_to": [
+      "Building Additional Temporary Tools"
+    ],
+    "requires": "|@Initial Tools:ALL|"
+  },
+  "Installing Basic System Software: System Tools": {
+    "connects_to": [
+      "Configuring LFS"
+    ],
+    "requires": "|@GCC:ALL| and |@Compression:ALL| and |@Important Tests:ALL|"
+  },
+  "Installing Basic System Software: Toolchain": {
+    "connects_to": [
+      "Installing Basic System Software: System Tools"
+    ],
+    "requires": "|@Chroot Tools:ALL|"
+  },
+  "The End": {
+    "requires": "|Linux|"
+  }
+}

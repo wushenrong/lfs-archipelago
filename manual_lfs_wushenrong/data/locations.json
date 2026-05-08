@@ -1,0 +1,593 @@
+{
+  "data": [
+    {
+      "name": "Binutils: Pass 1",
+      "region": "Compiling a Cross-Toolchain",
+      "requires": "|Binutils Pass 1|"
+    },
+    {
+      "name": "GCC: Pass 1",
+      "region": "Compiling a Cross-Toolchain",
+      "requires": "|GCC Pass 1|"
+    },
+    {
+      "name": "Linux API Headers",
+      "region": "Compiling a Cross-Toolchain",
+      "requires": "|Linux API Headers|"
+    },
+    {
+      "name": "Cross Glibc",
+      "region": "Compiling a Cross-Toolchain",
+      "requires": "|Cross Glibc|"
+    },
+    {
+      "name": "Libstdc++",
+      "region": "Compiling a Cross-Toolchain",
+      "requires": "|Libstdc++|"
+    },
+    {
+      "name": "Cross M4",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross M4|"
+    },
+    {
+      "name": "Cross Ncurses",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Ncurses|"
+    },
+    {
+      "name": "Cross Bash",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Bash| and |Cross Ncurses|"
+    },
+    {
+      "name": "Cross Coreutils",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Coreutils|"
+    },
+    {
+      "name": "Cross Diffutils",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Diffutils| and |Cross Coreutils|"
+    },
+    {
+      "name": "Cross File",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross File|"
+    },
+    {
+      "name": "Cross Findutils",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Findutils|"
+    },
+    {
+      "name": "Cross Gawk",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Gawk|"
+    },
+    {
+      "name": "Cross Grep",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Grep|"
+    },
+    {
+      "name": "Cross Gzip",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Gzip|"
+    },
+    {
+      "name": "Cross Make",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Make|"
+    },
+    {
+      "name": "Cross Patch",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Patch|"
+    },
+    {
+      "name": "Cross Sed",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Sed|"
+    },
+    {
+      "name": "Cross Tar",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Tar|"
+    },
+    {
+      "name": "Cross Xz",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Cross Xz|"
+    },
+    {
+      "name": "Binutils: Pass 2",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|Binutils Pass 2|"
+    },
+    {
+      "name": "GCC: Pass 2",
+      "region": "Cross Compiling Temporary Tools",
+      "requires": "|GCC Pass 2|"
+    },
+    {
+      "name": "Cross Gettext",
+      "region": "Building Additional Temporary Tools",
+      "requires": "|Cross Gettext|"
+    },
+    {
+      "name": "Cross Bison",
+      "region": "Building Additional Temporary Tools",
+      "requires": "|Cross Bison|"
+    },
+    {
+      "name": "Cross Perl",
+      "region": "Building Additional Temporary Tools",
+      "requires": "|Cross Perl|"
+    },
+    {
+      "name": "Cross Python",
+      "region": "Building Additional Temporary Tools",
+      "requires": "|Cross Python|"
+    },
+    {
+      "name": "Cross Texinfo",
+      "region": "Building Additional Temporary Tools",
+      "requires": "|Cross Texinfo| and |Cross Gettext|"
+    },
+    {
+      "name": "Cross Util-Linux",
+      "region": "Building Additional Temporary Tools",
+      "requires": "|Cross Util-Linux| and |Cross Gettext|"
+    },
+    {
+      "name": "Man-pages",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Man-pages|"
+    },
+    {
+      "name": "Iana-Etc",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Iana-Etc|"
+    },
+    {
+      "name": "Glibc: Build",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Glibc Build|"
+    },
+    {
+      "name": "Glibc: Test",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|@Glibc:ALL|"
+    },
+    {
+      "name": "Zlib",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Zlib| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Bzip2",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Bzip2| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Xz",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Xz| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Lz4",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Lz4| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Zstd",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|@Compression:ALL| and |@Glibc:ALL|"
+    },
+    {
+      "name": "File",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|File| and |@Compression:ALL| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Readline",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Readline| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Pcre2",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Pcre2| and |Readline| and |@Glibc:ALL|"
+    },
+    {
+      "name": "M4",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|M4| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Bc",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Bc| and |Readline| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Flex",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Flex| and |M4| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Tcl",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Tcl| and |Zlib| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Expect",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Expect| and |Tcl| and |@Glibc:ALL|"
+    },
+    {
+      "name": "DejaGNU",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|DejaGNU| and |Expect|"
+    },
+    {
+      "name": "Pkgconf",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Pkgconf| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Binutils: Build",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Binutils Build| and |@Binutils Prerequisites:ALL| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Binutils: Test",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|@Binutils:ALL| and |DejaGNU| and |Expect|"
+    },
+    {
+      "name": "GMP: Build",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|GMP Build| and |M4| and |@Binutils:ALL| and |@Glibc:ALL|"
+    },
+    {
+      "name": "GMP: Test",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|@GMP:ALL|"
+    },
+    {
+      "name": "MPFR: Build",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|MPFR Build| and |@Binutils:ALL| and |@GMP:ALL| and |@Glibc:ALL|"
+    },
+    {
+      "name": "MPFR: Test",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|@MPFR:ALL|"
+    },
+    {
+      "name": "MPC",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|MPC| and |@Binutils:ALL| and |@GMP:ALL| and |@MPFR:ALL|"
+    },
+    {
+      "name": "Attr",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Attr| and |M4| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Acl",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Acl| and |Attr| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Libcap",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Libcap| and |Attr| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Libxcrypt",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Libxcrypt| and |@Glibc:ALL|"
+    },
+    {
+      "name": "Shadow",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|Shadow| and |@Shadow Prerequisites:ALL| and |@Glibc:ALL|"
+    },
+    {
+      "name": "GCC: Build",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|GCC Build| and |@GCC Prerequisites:ALL| and |@Glibc:ALL|"
+    },
+    {
+      "name": "GCC: Test",
+      "region": "Installing Basic System Software: Toolchain",
+      "requires": "|@GCC:ALL| and |DejaGNU| and |Expect| and |Shadow|"
+    },
+    {
+      "name": "Ncurses",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Ncurses|"
+    },
+    {
+      "name": "Sed",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Sed|"
+    },
+    {
+      "name": "Psmisc",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Psmisc| and |Ncurses|"
+    },
+    {
+      "name": "Gettext",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Gettext| and |Ncurses|"
+    },
+    {
+      "name": "Bison",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Bison| and |Gettext|"
+    },
+    {
+      "name": "Grep",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Grep| and |Gettext|"
+    },
+    {
+      "name": "Bash",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Bash| and |Ncurses|"
+    },
+    {
+      "name": "Libtool",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Libtool|"
+    },
+    {
+      "name": "GDBM",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|GDBM|"
+    },
+    {
+      "name": "Gperf",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Gperf|"
+    },
+    {
+      "name": "Expat",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Expat|"
+    },
+    {
+      "name": "Inetutils",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Inetutils| and |Ncurses|"
+    },
+    {
+      "name": "Less",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Less| and |Ncurses|"
+    },
+    {
+      "name": "Perl",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Perl| and |GDBM| and |Less| and |Iana-Etc|"
+    },
+    {
+      "name": "XML::Parser",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|XML__Parser| and |Expat| and |Perl|"
+    },
+    {
+      "name": "Intltool",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Intltool| and |Perl| and |XML__Parser|"
+    },
+    {
+      "name": "Autoconf",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Autoconf| and |Perl|"
+    },
+    {
+      "name": "Automake",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Automake| and |Autoconf| and |Gettext| and |Perl|"
+    },
+    {
+      "name": "OpenSSL",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|OpenSSL| and |Perl|"
+    },
+    {
+      "name": "Libelf",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Libelf|"
+    },
+    {
+      "name": "Libffi",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Libffi|"
+    },
+    {
+      "name": "Sqlite",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Sqlite|"
+    },
+    {
+      "name": "Python",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|@Python Prerequisites:ALL|"
+    },
+    {
+      "name": "Flit-Core",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Flit-Core| and |Python|"
+    },
+    {
+      "name": "Packaging",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Packaging| and |Flit-Core| and |Python|"
+    },
+    {
+      "name": "Wheel",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Wheel| and |Packaging| and |Flit-Core| and |Python|"
+    },
+    {
+      "name": "Setuptools",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Setuptools| and |Python| and |Wheel|"
+    },
+    {
+      "name": "Ninja",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Ninja| and |Python|"
+    },
+    {
+      "name": "Meson",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Meson| and |Ninja| and |Python| and |Setuptools| and |Wheel|"
+    },
+    {
+      "name": "Kmod",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Kmod| and |Gettext| and |OpenSSL|"
+    },
+    {
+      "name": "Coreutils",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Coreutils| and |@Coreutils Prerequisites:ALL|"
+    },
+    {
+      "name": "Diffutils",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Diffutils| and |@Diffutils Prerequisites:ALL|"
+    },
+    {
+      "name": "Gawk",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Gawk| and |Gettext|"
+    },
+    {
+      "name": "Findutils",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Findutils| and |Gettext|"
+    },
+    {
+      "name": "Groff",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|@Groff Prerequisites:ALL|"
+    },
+    {
+      "name": "GRUB",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|GRUB| and |Gettext| and |Ncurses| and |Sed|"
+    },
+    {
+      "name": "Gzip",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Gzip| and |Diffutils| and |Less|"
+    },
+    {
+      "name": "IPRoute2",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|IPRoute2| and |Libcap| and |Libelf|"
+    },
+    {
+      "name": "Kbd",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Kbd| and |Gettext|"
+    },
+    {
+      "name": "Libpipeline",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Libpipeline|"
+    },
+    {
+      "name": "Make",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Make| and |Gettext| and |Perl|"
+    },
+    {
+      "name": "Patch",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Patch| and |Attr| and |Diffutils|"
+    },
+    {
+      "name": "Tar",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|@Tar Prerequisites:ALL| and |Acl| and |Attr|"
+    },
+    {
+      "name": "Texinfo",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Texinfo| and |Gettext| and |Ncurses|"
+    },
+    {
+      "name": "Vim",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Vim| and |Acl| and |Attr| and |Ncurses| and |Python| and |Tcl|"
+    },
+    {
+      "name": "MarkupSafe",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|MarkupSafe| and |Python| and |Setuptools| and |Wheel|"
+    },
+    {
+      "name": "Jinja2",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Jinja2| and |MarkupSafe| and |Python| and |Setuptools| and |Wheel|"
+    },
+    {
+      "name": "Systemd",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|@Systemd Prerequisites:ALL| and |Acl|"
+    },
+    {
+      "name": "D-Bus",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|D-Bus| and |Systemd|"
+    },
+    {
+      "name": "Man-DB",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Man-DB| and |GDBM| and |Gettext| and |Groff| and |Less| and |Libpipeline| and |Systemd|"
+    },
+    {
+      "name": "Procps-ng",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Procps-ng| and |Ncurses| and |Systemd|"
+    },
+    {
+      "name": "Util-Linux",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|Util-Linux| and |Gettext| and |Ncurses| and |Systemd|"
+    },
+    {
+      "name": "E2fsprogs",
+      "region": "Installing Basic System Software: System Tools",
+      "requires": "|E2fsprogs| and |Systemd| and |Util-Linux| and |Procps-ng| and |Psmisc|"
+    },
+    {
+      "name": "System Configuration",
+      "region": "Configuring LFS"
+    },
+    {
+      "name": "Linux",
+      "region": "Configuring LFS",
+      "requires": "|@Linux Prerequisites:ALL| and |Bc|"
+    },
+    {
+      "name": "Bootloader",
+      "region": "Configuring LFS",
+      "requires": "|E2fsprogs| and |GRUB| and |Linux|"
+    },
+    {
+      "name": "Boot LFS",
+      "region": "The End",
+      "victory": true
+    }
+  ]
+}

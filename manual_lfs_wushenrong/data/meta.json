@@ -1,0 +1,22 @@
+{
+  "docs": {
+    "apworld_description": [
+      "A multiworld randomizer for Linux From Scratch."
+    ],
+    "web": {
+      "bug_report_page": "https://github.com/wushenrong/lfs-archipelago/issues",
+      "game_info_languages": [
+        "en"
+      ],
+      "tutorials": [
+        {
+          "description": "A guide of how to up the LFS Randomizer and how it works.",
+          "file_name": "setup_en.md",
+          "language": "English",
+          "link": "setup/en",
+          "name": "Linux From Scratch (LFS) Randomizer Setup Guide"
+        }
+      ]
+    }
+  }
+}

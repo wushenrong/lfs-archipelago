@@ -1,0 +1,62 @@
+{
+  "Binutils": {
+    "hidden": true
+  },
+  "Binutils Prerequisites": {
+    "hidden": true
+  },
+  "Chroot Tools": {
+    "hidden": true
+  },
+  "Compression": {
+    "hidden": true
+  },
+  "Coreutils Prerequisites": {
+    "hidden": true
+  },
+  "Cross Tools": {
+    "hidden": true
+  },
+  "Diffutils Prerequisites": {
+    "hidden": true
+  },
+  "GCC": {
+    "hidden": true
+  },
+  "GCC Prerequisites": {
+    "hidden": true
+  },
+  "Glibc": {
+    "hidden": true
+  },
+  "GMP": {
+    "hidden": true
+  },
+  "Groff Prerequisites": {
+    "hidden": true
+  },
+  "Important Tests": {
+    "hidden": true
+  },
+  "Initial Tools": {
+    "hidden": true
+  },
+  "Linux Prerequisites": {
+    "hidden": true
+  },
+  "MPFR": {
+    "hidden": true
+  },
+  "Python Prerequisites": {
+    "hidden": true
+  },
+  "Shadow Prerequisites": {
+    "hidden": true
+  },
+  "Systemd Prerequisites": {
+    "hidden": true
+  },
+  "Tar Prerequisites": {
+    "hidden": true
+  }
+}
