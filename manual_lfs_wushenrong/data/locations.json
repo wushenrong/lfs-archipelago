@@ -268,7 +268,7 @@
     {
       "name": "MPC",
       "region": "Installing Basic System Software: Toolchain",
-      "requires": "|MPC| and |@Binutils:ALL| and |@GMP:ALL| and |@MPFR:ALL|"
+      "requires": "|MPC| and |@Binutils:ALL| and |@GMP:ALL| and |@MPFR:ALL| and |@Glibc:ALL|"
     },
     {
       "name": "Attr",
@@ -293,7 +293,7 @@
     {
       "name": "Shadow",
       "region": "Installing Basic System Software: Toolchain",
-      "requires": "|Shadow| and |@Shadow Prerequisites:ALL| and |@Glibc:ALL|"
+      "requires": "|Shadow| and |Attr| and |Acl| and |Libcap| and |Libxcrypt| and |@Glibc:ALL|"
     },
     {
       "name": "GCC: Build",
@@ -458,12 +458,12 @@
     {
       "name": "Coreutils",
       "region": "Installing Basic System Software: System Tools",
-      "requires": "|Coreutils| and |@Coreutils Prerequisites:ALL|"
+      "requires": "|Coreutils| and |Perl|"
     },
     {
       "name": "Diffutils",
       "region": "Installing Basic System Software: System Tools",
-      "requires": "|Diffutils| and |@Diffutils Prerequisites:ALL|"
+      "requires": "|Diffutils| and |Autoconf| and |Automake| and |Perl| and |OpenSSL|"
     },
     {
       "name": "Gawk",
@@ -478,7 +478,7 @@
     {
       "name": "Groff",
       "region": "Installing Basic System Software: System Tools",
-      "requires": "|@Groff Prerequisites:ALL|"
+      "requires": "|Groff| and |Perl|"
     },
     {
       "name": "GRUB",
@@ -488,7 +488,7 @@
     {
       "name": "Gzip",
       "region": "Installing Basic System Software: System Tools",
-      "requires": "|Gzip| and |Diffutils| and |Less|"
+      "requires": "|Gzip| and |Less|"
     },
     {
       "name": "IPRoute2",
@@ -513,12 +513,12 @@
     {
       "name": "Patch",
       "region": "Installing Basic System Software: System Tools",
-      "requires": "|Patch| and |Attr| and |Diffutils|"
+      "requires": "|Patch| and |Attr|"
     },
     {
       "name": "Tar",
       "region": "Installing Basic System Software: System Tools",
-      "requires": "|@Tar Prerequisites:ALL| and |Acl| and |Attr|"
+      "requires": "|Tar| and |Gettext| and |Inetutils| and |Autoconf| and |Acl| and |Attr|"
     },
     {
       "name": "Texinfo",

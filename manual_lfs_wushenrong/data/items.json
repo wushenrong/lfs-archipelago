@@ -367,30 +367,18 @@
       "progression": true
     },
     {
-      "category": [
-        "Shadow Prerequisites"
-      ],
       "name": "Attr",
       "progression": true
     },
     {
-      "category": [
-        "Shadow Prerequisites"
-      ],
       "name": "Acl",
       "progression": true
     },
     {
-      "category": [
-        "Shadow Prerequisites"
-      ],
       "name": "Libcap",
       "progression": true
     },
     {
-      "category": [
-        "Shadow Prerequisites"
-      ],
       "name": "Libxcrypt",
       "progression": true
     },
@@ -434,8 +422,7 @@
     },
     {
       "category": [
-        "Python Prerequisites",
-        "Tar Prerequisites"
+        "Python Prerequisites"
       ],
       "name": "Gettext",
       "progression": true
@@ -478,9 +465,6 @@
       "progression": true
     },
     {
-      "category": [
-        "Tar Prerequisites"
-      ],
       "name": "Inetutils",
       "progression": true
     },
@@ -490,9 +474,6 @@
     },
     {
       "category": [
-        "Coreutils Prerequisites",
-        "Diffutils Prerequisites",
-        "Groff Prerequisites",
         "Linux Prerequisites"
       ],
       "name": "Perl",
@@ -507,24 +488,16 @@
       "progression": true
     },
     {
-      "category": [
-        "Coreutils Prerequisites",
-        "Tar Prerequisites"
-      ],
       "name": "Autoconf",
       "progression": true
     },
     {
-      "category": [
-        "Coreutils Prerequisites"
-      ],
       "name": "Automake",
       "progression": true
     },
     {
       "category": [
         "Python Prerequisites",
-        "Coreutils Prerequisites",
         "Systemd Prerequisites",
         "Linux Prerequisites"
       ],
@@ -598,30 +571,18 @@
       "progression": true
     },
     {
-      "category": [
-        "Tar Prerequisites"
-      ],
       "name": "Diffutils",
       "progression": true
     },
     {
-      "category": [
-        "Tar Prerequisites"
-      ],
       "name": "Gawk",
       "progression": true
     },
     {
-      "category": [
-        "Tar Prerequisites"
-      ],
       "name": "Findutils",
       "progression": true
     },
     {
-      "category": [
-        "Groff Prerequisites"
-      ],
       "name": "Groff",
       "progression": true
     },
@@ -630,9 +591,6 @@
       "progression": true
     },
     {
-      "category": [
-        "Tar Prerequisites"
-      ],
       "name": "Gzip",
       "progression": true
     },
@@ -657,9 +615,6 @@
       "progression": true
     },
     {
-      "category": [
-        "Tar Prerequisites"
-      ],
       "name": "Tar",
       "progression": true
     },

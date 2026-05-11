@@ -11,13 +11,7 @@
   "Compression": {
     "hidden": true
   },
-  "Coreutils Prerequisites": {
-    "hidden": true
-  },
   "Cross Tools": {
-    "hidden": true
-  },
-  "Diffutils Prerequisites": {
     "hidden": true
   },
   "GCC": {
@@ -50,13 +44,7 @@
   "Python Prerequisites": {
     "hidden": true
   },
-  "Shadow Prerequisites": {
-    "hidden": true
-  },
   "Systemd Prerequisites": {
-    "hidden": true
-  },
-  "Tar Prerequisites": {
     "hidden": true
   }
 }
